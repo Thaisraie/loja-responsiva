@@ -1,0 +1,247 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior:smooth;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.089);
+}
+
+header, footer {
+    background-color: black;
+    color: #F2F5EA;
+    padding-top: 19px;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+.menu-hamburguer {
+    width: 40px;
+    cursor: pointer;
+}
+
+.menu-hamburguer span {
+    height: 2px;
+    width: 100%;
+    margin-left: 20px;
+    background-color: #fff;
+    display: block;
+    margin-bottom: 6px;
+}
+
+nav li {
+    list-style: none;
+    display: inline;
+    margin-right: 16px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+nav li a {
+    color: black;
+    text-decoration: none;
+}
+
+header > .container,
+footer > .container {
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 15px;
+}
+
+.title {
+    text-align: center;
+    padding-bottom: 50px;
+    font-size: 18px;
+}
+
+.container {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.menu {
+    background-color: #FFE2D1;
+    padding: 15px 0;
+    display: none;
+}
+
+.sublinhado > li {
+    border-bottom: 2px solid transparent;
+}
+
+.sublinhado li:hover {
+    border-color: black;
+}
+
+.container-flex {
+    display: flex;
+
+}
+
+#sobre-a-loja img {
+    max-width: 350px;
+    margin-right: 24px;
+}
+
+section {
+    padding: 48px 0;
+}
+
+section h2 {
+    margin-bottom: 20px;
+}
+
+.lista-bolsas {
+    flex-wrap: wrap;
+}
+
+.lista-bolsas li {
+    list-style: none;
+    max-width: 30%;
+}
+
+.lista-bolsas li img {
+    max-width: 100%;
+}
+
+.lista-bolsas li h3 {
+    margin: 15px 0;
+}
+
+.item-central {
+    margin: 0 5%;
+}
+
+form button {
+    color: black;
+    background-color: #FFE2D1;
+    border-radius: 5px;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 8px 0;
+    background-color: black;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.form-campo {
+    margin-bottom: 16px;
+}
+
+.form-campo label {
+    display: block;    
+}
+
+.form-campo input,
+.form-campo textarea {
+    width: 100%;
+    display: block;
+    padding: 7px;
+}
+
+.form-campo textarea {
+    resize: none;
+    height: 120px;
+}
+
+form {
+    max-width: 360px;
+}
+
+form button {
+    max-width: 120px;
+}
+
+footer li {
+    list-style: none;
+    margin-left: 16px;
+}
+
+footer li img {
+    height: 32px;
+}
+
+@media screen and (max-width: 767px) {
+    .menu-hamburguer {
+        width: 35px;
+        cursor: pointer;
+    }
+
+    .title {
+        width: 100%;
+        padding-bottom: 50px;
+        font-size: 18px;
+    }
+    
+    .menu {
+        background-color: #FFE2D1;
+        padding: 15px 0;
+        text-align: center;
+        display: none;
+    }
+    
+    #sobre-a-loja img {
+        max-width: 360px;
+        margin-right: px;
+    }    
+
+    section {
+        padding: 35px 10px;
+    }
+
+    .container-flex {
+        display:list-item;
+    }
+
+    #sobre-a-loja h2 {
+        text-align: center;
+        padding: 15px;
+    }
+
+    #bags {
+        text-align: center;
+    }
+
+    li {
+        display:contents;
+    }
+
+    li h3, p {
+        text-align: center;
+    }
+    li button {
+        margin-bottom: 20px;
+        margin-top: 10px;
+    }
+
+    #contato {
+        text-align: center;
+    }
+
+    form label {
+        padding: 10px;
+        font-weight: bold;
+    }
+
+    form button {
+        margin-left: 110px;
+    }
+
+
+}
